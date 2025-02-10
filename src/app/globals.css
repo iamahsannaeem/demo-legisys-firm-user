@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #353750;
+    --color-chat-section: #50223c;
+    --base-color: #F6F8FC;
+    --disabled-text : #9CA3AF;
+    --color-primary-btn: #353750;
+    --color-secondary: #D9D9D9;
+    --color-success: #35813c;
+    --color-error: #e10303;
+    --dark-base-color: #595b69;
+    --dark-color-primary: #eadfd5;
+  }
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/src/assets/sf-pro-display/SFPRODISPLAYREGULAR.OTF') format('trueType');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d3d3d3;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.ik-md ul {
+  padding-left: 12px;
+}
+
+.ik-md li {
+  padding-left: 30px;
+}
