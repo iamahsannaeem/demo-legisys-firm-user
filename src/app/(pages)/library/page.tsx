@@ -35,7 +35,7 @@ const Library = () => {
                 <div>Opt-in/Opt-out</div>
                 <button
                   onClick={() => setIsActive(!isActive)}
-                  className={`relative w-[30] h-[15px]  rounded-full flex items-center  transition-all duration-300 p-[2px] ${isActive ? "bg-blue-500" : "bg-gray-500"}`}
+                  className={`relative w-[30px] h-[15px]  rounded-full flex items-center  transition-all duration-300 p-[2px] ${isActive ? "bg-blue-500" : "bg-gray-500"}`}
                 >
                   <div
                     className={`w-[12px] h-[12px] bg-white rounded-full shadow-md transform transition-transform duration-300 ${isActive ? "translate-x-[15px]" : "translate-x-0"}`}
