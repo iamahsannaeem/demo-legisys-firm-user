@@ -13,7 +13,7 @@ export const NAV_LINKS = [
     title: "Dashboard",
     alt: "dashboardImage",
     icon: <DashboardIcon />,
-    activeIcon: <DashboardIcon color="#000000" />,
+    activeIcon: <DashboardIcon />,
     hreflink: "/dashboard",
   },
   {

@@ -1,9 +1,4 @@
-import { FC } from "react";
-
-interface ProfileIconProps {
-  color?: string;
-}
-export const ProfileIcon: FC<ProfileIconProps> = ({ color }) => {
+export const ProfileIcon = () => {
   return (
     <div className="">
       <svg

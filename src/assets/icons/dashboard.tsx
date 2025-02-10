@@ -1,9 +1,4 @@
-import { FC } from "react";
-
-interface ResearchIconProps {
-  color?: string;
-}
-export const DashboardIcon: FC<ResearchIconProps> = ({ color }) => {
+export const DashboardIcon = () => {
   return (
     <svg
       width="16"

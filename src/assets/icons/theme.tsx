@@ -1,9 +1,4 @@
-import { FC } from "react";
-
-interface ThemeIconProps {
-  color?: string;
-}
-export const ThemeIcon: FC<ThemeIconProps> = ({ color }) => {
+export const ThemeIcon = () => {
   return (
     <div className="cursor-pointer hover:bg-slate-200 rounded-full">
       <svg

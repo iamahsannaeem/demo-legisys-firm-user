@@ -1,9 +1,4 @@
-import { FC } from "react";
-
-interface HomeIconProps {
-  color?: string;
-}
-export const HomeIcon: FC<HomeIconProps> = ({ color }) => {
+export const HomeIcon = () => {
   return (
     <div className="">
       <svg

@@ -1,9 +1,4 @@
-import { FC } from "react";
-
-interface DeleteIconProps {
-  color?: string;
-}
-export const DeleteIcon: FC<DeleteIconProps> = ({ color }) => {
+export const DeleteIcon = () => {
   return (
     <svg
       width="15"

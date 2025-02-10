@@ -3,7 +3,7 @@ import { ChatHeader } from "@/components/chat/chat-heaer";
 import { Input } from "@/components/common/input";
 import { useState } from "react";
 
-const page = () => {
+const Library = () => {
   const [isActive, setIsActive] = useState(false);
   return (
     <div className="h-full  bg-white rounded-xl shadow flex flex-col font-sf">
@@ -112,4 +112,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Library;

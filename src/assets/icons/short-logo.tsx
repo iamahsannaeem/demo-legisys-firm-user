@@ -1,9 +1,4 @@
-import { FC } from "react";
-
-interface ShortLogoProps {
-  color?: string;
-}
-export const ShortLogo: FC<ShortLogoProps> = ({ color }) => {
+export const ShortLogo = () => {
   return (
     <svg
       width="42"

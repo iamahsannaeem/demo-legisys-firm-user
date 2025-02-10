@@ -1,9 +1,4 @@
-import { FC } from "react";
-
-interface SendIconProps {
-  color?: string;
-}
-export const SendIcon: FC<SendIconProps> = ({ color }) => {
+export const SendIcon = () => {
   return (
     <svg
       width="30"

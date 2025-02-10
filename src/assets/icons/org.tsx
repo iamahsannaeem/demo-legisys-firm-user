@@ -1,9 +1,4 @@
-import { FC } from "react";
-
-interface OrgIconProps {
-  color?: string;
-}
-export const OrgIcon: FC<OrgIconProps> = ({ color }) => {
+export const OrgIcon = () => {
   return (
     <div className="">
       <svg
